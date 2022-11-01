@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<root>
-  <vehicles>
+<vehicles>
+  <vehicle>
     <name>Sand Crawler</name>
     <model>Digger Crawler</model>
     <manufacturer>Corellia Mining Corporation</manufacturer>
@@ -13,13 +13,15 @@
     <consumables>2 months</consumables>
     <vehicle_class>wheeled</vehicle_class>
     <pilots/>
-    <films>https://swapi.dev/api/films/1/</films>
-    <films>https://swapi.dev/api/films/5/</films>
+    <films>
+      <film>https://swapi.dev/api/films/1/</film>
+      <film>https://swapi.dev/api/films/5/</film>
+    </films>
     <created>2014-12-10T15:36:25.724000Z</created>
     <edited>2014-12-20T21:30:21.661000Z</edited>
     <url>https://swapi.dev/api/vehicles/4/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>T-16 skyhopper</name>
     <model>T-16 skyhopper</model>
     <manufacturer>Incom Corporation</manufacturer>
@@ -32,12 +34,14 @@
     <consumables>0</consumables>
     <vehicle_class>repulsorcraft</vehicle_class>
     <pilots/>
-    <films>https://swapi.dev/api/films/1/</films>
+    <films>
+      <film>https://swapi.dev/api/films/1/</film>
+    </films>
     <created>2014-12-10T16:01:52.434000Z</created>
     <edited>2014-12-20T21:30:21.665000Z</edited>
     <url>https://swapi.dev/api/vehicles/6/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>X-34 landspeeder</name>
     <model>X-34 landspeeder</model>
     <manufacturer>SoroSuub Corporation</manufacturer>
@@ -50,12 +54,14 @@
     <consumables>unknown</consumables>
     <vehicle_class>repulsorcraft</vehicle_class>
     <pilots/>
-    <films>https://swapi.dev/api/films/1/</films>
+    <films>
+      <film>https://swapi.dev/api/films/1/</film>
+    </films>
     <created>2014-12-10T16:13:52.586000Z</created>
     <edited>2014-12-20T21:30:21.668000Z</edited>
     <url>https://swapi.dev/api/vehicles/7/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>TIE/LN starfighter</name>
     <model>Twin Ion Engine/Ln Starfighter</model>
     <manufacturer>Sienar Fleet Systems</manufacturer>
@@ -68,14 +74,16 @@
     <consumables>2 days</consumables>
     <vehicle_class>starfighter</vehicle_class>
     <pilots/>
-    <films>https://swapi.dev/api/films/1/</films>
-    <films>https://swapi.dev/api/films/2/</films>
-    <films>https://swapi.dev/api/films/3/</films>
+    <films>
+      <film>https://swapi.dev/api/films/1/</film>
+      <film>https://swapi.dev/api/films/2/</film>
+      <film>https://swapi.dev/api/films/3/</film>
+    </films>
     <created>2014-12-10T16:33:52.860000Z</created>
     <edited>2014-12-20T21:30:21.670000Z</edited>
     <url>https://swapi.dev/api/vehicles/8/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>Snowspeeder</name>
     <model>t-47 airspeeder</model>
     <manufacturer>Incom corporation</manufacturer>
@@ -87,14 +95,18 @@
     <cargo_capacity>10</cargo_capacity>
     <consumables>none</consumables>
     <vehicle_class>airspeeder</vehicle_class>
-    <pilots>https://swapi.dev/api/people/1/</pilots>
-    <pilots>https://swapi.dev/api/people/18/</pilots>
-    <films>https://swapi.dev/api/films/2/</films>
+    <pilots>
+      <pilot>https://swapi.dev/api/people/1/</pilot>
+      <pilot>https://swapi.dev/api/people/18/</pilot>
+    </pilots>
+    <films>
+      <film>https://swapi.dev/api/films/2/</film>
+    </films>
     <created>2014-12-15T12:22:12Z</created>
     <edited>2014-12-20T21:30:21.672000Z</edited>
     <url>https://swapi.dev/api/vehicles/14/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>TIE bomber</name>
     <model>TIE/sa bomber</model>
     <manufacturer>Sienar Fleet Systems</manufacturer>
@@ -107,13 +119,15 @@
     <consumables>2 days</consumables>
     <vehicle_class>space/planetary bomber</vehicle_class>
     <pilots/>
-    <films>https://swapi.dev/api/films/2/</films>
-    <films>https://swapi.dev/api/films/3/</films>
+    <films>
+      <film>https://swapi.dev/api/films/2/</film>
+      <film>https://swapi.dev/api/films/3/</film>
+    </films>
     <created>2014-12-15T12:33:15.838000Z</created>
     <edited>2014-12-20T21:30:21.675000Z</edited>
     <url>https://swapi.dev/api/vehicles/16/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>AT-AT</name>
     <model>All Terrain Armored Transport</model>
     <manufacturer>Kuat Drive Yards, Imperial Department of Military Research</manufacturer>
@@ -126,13 +140,15 @@
     <consumables>unknown</consumables>
     <vehicle_class>assault walker</vehicle_class>
     <pilots/>
-    <films>https://swapi.dev/api/films/2/</films>
-    <films>https://swapi.dev/api/films/3/</films>
+    <films>
+      <film>https://swapi.dev/api/films/2/</film>
+      <film>https://swapi.dev/api/films/3/</film>
+    </films>
     <created>2014-12-15T12:38:25.937000Z</created>
     <edited>2014-12-20T21:30:21.677000Z</edited>
     <url>https://swapi.dev/api/vehicles/18/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>AT-ST</name>
     <model>All Terrain Scout Transport</model>
     <manufacturer>Kuat Drive Yards, Imperial Department of Military Research</manufacturer>
@@ -144,14 +160,18 @@
     <cargo_capacity>200</cargo_capacity>
     <consumables>none</consumables>
     <vehicle_class>walker</vehicle_class>
-    <pilots>https://swapi.dev/api/people/13/</pilots>
-    <films>https://swapi.dev/api/films/2/</films>
-    <films>https://swapi.dev/api/films/3/</films>
+    <pilots>
+      <pilot>https://swapi.dev/api/people/13/</pilot>
+    </pilots>
+    <films>
+      <film>https://swapi.dev/api/films/2/</film>
+      <film>https://swapi.dev/api/films/3/</film>
+    </films>
     <created>2014-12-15T12:46:42.384000Z</created>
     <edited>2014-12-20T21:30:21.679000Z</edited>
     <url>https://swapi.dev/api/vehicles/19/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>Storm IV Twin-Pod cloud car</name>
     <model>Storm IV Twin-Pod</model>
     <manufacturer>Bespin Motors</manufacturer>
@@ -164,12 +184,14 @@
     <consumables>1 day</consumables>
     <vehicle_class>repulsorcraft</vehicle_class>
     <pilots/>
-    <films>https://swapi.dev/api/films/2/</films>
+    <films>
+      <film>https://swapi.dev/api/films/2/</film>
+    </films>
     <created>2014-12-15T12:58:50.530000Z</created>
     <edited>2014-12-20T21:30:21.681000Z</edited>
     <url>https://swapi.dev/api/vehicles/20/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>Sail barge</name>
     <model>Modified Luxury Sail Barge</model>
     <manufacturer>Ubrikkian Industries Custom Vehicle Division</manufacturer>
@@ -182,12 +204,14 @@
     <consumables>Live food tanks</consumables>
     <vehicle_class>sail barge</vehicle_class>
     <pilots/>
-    <films>https://swapi.dev/api/films/3/</films>
+    <films>
+      <film>https://swapi.dev/api/films/3/</film>
+    </films>
     <created>2014-12-18T10:44:14.217000Z</created>
     <edited>2014-12-20T21:30:21.684000Z</edited>
     <url>https://swapi.dev/api/vehicles/24/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>Bantha-II cargo skiff</name>
     <model>Bantha-II</model>
     <manufacturer>Ubrikkian Industries</manufacturer>
@@ -200,12 +224,14 @@
     <consumables>1 day</consumables>
     <vehicle_class>repulsorcraft cargo skiff</vehicle_class>
     <pilots/>
-    <films>https://swapi.dev/api/films/3/</films>
+    <films>
+      <film>https://swapi.dev/api/films/3/</film>
+    </films>
     <created>2014-12-18T10:48:03.208000Z</created>
     <edited>2014-12-20T21:30:21.688000Z</edited>
     <url>https://swapi.dev/api/vehicles/25/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>TIE/IN interceptor</name>
     <model>Twin Ion Engine Interceptor</model>
     <manufacturer>Sienar Fleet Systems</manufacturer>
@@ -218,12 +244,14 @@
     <consumables>2 days</consumables>
     <vehicle_class>starfighter</vehicle_class>
     <pilots/>
-    <films>https://swapi.dev/api/films/3/</films>
+    <films>
+      <film>https://swapi.dev/api/films/3/</film>
+    </films>
     <created>2014-12-18T10:50:28.225000Z</created>
     <edited>2014-12-20T21:30:21.691000Z</edited>
     <url>https://swapi.dev/api/vehicles/26/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>Imperial Speeder Bike</name>
     <model>74-Z speeder bike</model>
     <manufacturer>Aratech Repulsor Company</manufacturer>
@@ -235,14 +263,18 @@
     <cargo_capacity>4</cargo_capacity>
     <consumables>1 day</consumables>
     <vehicle_class>speeder</vehicle_class>
-    <pilots>https://swapi.dev/api/people/1/</pilots>
-    <pilots>https://swapi.dev/api/people/5/</pilots>
-    <films>https://swapi.dev/api/films/3/</films>
+    <pilots>
+      <pilot>https://swapi.dev/api/people/1/</pilot>
+      <pilot>https://swapi.dev/api/people/5/</pilot>
+    </pilots>
+    <films>
+      <film>https://swapi.dev/api/films/3/</film>
+    </films>
     <created>2014-12-18T11:20:04.625000Z</created>
     <edited>2014-12-20T21:30:21.693000Z</edited>
     <url>https://swapi.dev/api/vehicles/30/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>Vulture Droid</name>
     <model>Vulture-class droid starfighter</model>
     <manufacturer>Haor Chall Engineering, Baktoid Armor Workshop</manufacturer>
@@ -255,13 +287,15 @@
     <consumables>none</consumables>
     <vehicle_class>starfighter</vehicle_class>
     <pilots/>
-    <films>https://swapi.dev/api/films/4/</films>
-    <films>https://swapi.dev/api/films/6/</films>
+    <films>
+      <film>https://swapi.dev/api/films/4/</film>
+      <film>https://swapi.dev/api/films/6/</film>
+    </films>
     <created>2014-12-19T17:09:53.584000Z</created>
     <edited>2014-12-20T21:30:21.697000Z</edited>
     <url>https://swapi.dev/api/vehicles/33/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>Multi-Troop Transport</name>
     <model>Multi-Troop Transport</model>
     <manufacturer>Baktoid Armor Workshop</manufacturer>
@@ -274,12 +308,14 @@
     <consumables>unknown</consumables>
     <vehicle_class>repulsorcraft</vehicle_class>
     <pilots/>
-    <films>https://swapi.dev/api/films/4/</films>
+    <films>
+      <film>https://swapi.dev/api/films/4/</film>
+    </films>
     <created>2014-12-19T17:12:04.400000Z</created>
     <edited>2014-12-20T21:30:21.700000Z</edited>
     <url>https://swapi.dev/api/vehicles/34/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>Armored Assault Tank</name>
     <model>Armoured Assault Tank</model>
     <manufacturer>Baktoid Armor Workshop</manufacturer>
@@ -292,12 +328,14 @@
     <consumables>unknown</consumables>
     <vehicle_class>repulsorcraft</vehicle_class>
     <pilots/>
-    <films>https://swapi.dev/api/films/4/</films>
+    <films>
+      <film>https://swapi.dev/api/films/4/</film>
+    </films>
     <created>2014-12-19T17:13:29.799000Z</created>
     <edited>2014-12-20T21:30:21.703000Z</edited>
     <url>https://swapi.dev/api/vehicles/35/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>Single Trooper Aerial Platform</name>
     <model>Single Trooper Aerial Platform</model>
     <manufacturer>Baktoid Armor Workshop</manufacturer>
@@ -310,12 +348,14 @@
     <consumables>none</consumables>
     <vehicle_class>repulsorcraft</vehicle_class>
     <pilots/>
-    <films>https://swapi.dev/api/films/4/</films>
+    <films>
+      <film>https://swapi.dev/api/films/4/</film>
+    </films>
     <created>2014-12-19T17:15:09.511000Z</created>
     <edited>2014-12-20T21:30:21.705000Z</edited>
     <url>https://swapi.dev/api/vehicles/36/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>C-9979 landing craft</name>
     <model>C-9979 landing craft</model>
     <manufacturer>Haor Chall Engineering</manufacturer>
@@ -328,12 +368,14 @@
     <consumables>1 day</consumables>
     <vehicle_class>landing craft</vehicle_class>
     <pilots/>
-    <films>https://swapi.dev/api/films/4/</films>
+    <films>
+      <film>https://swapi.dev/api/films/4/</film>
+    </films>
     <created>2014-12-19T17:20:36.373000Z</created>
     <edited>2014-12-20T21:30:21.707000Z</edited>
     <url>https://swapi.dev/api/vehicles/37/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>Tribubble bongo</name>
     <model>Tribubble bongo</model>
     <manufacturer>Otoh Gunga Bongameken Cooperative</manufacturer>
@@ -345,14 +387,18 @@
     <cargo_capacity>1600</cargo_capacity>
     <consumables>unknown</consumables>
     <vehicle_class>submarine</vehicle_class>
-    <pilots>https://swapi.dev/api/people/10/</pilots>
-    <pilots>https://swapi.dev/api/people/32/</pilots>
-    <films>https://swapi.dev/api/films/4/</films>
+    <pilots>
+      <pilot>https://swapi.dev/api/people/10/</pilot>
+      <pilot>https://swapi.dev/api/people/32/</pilot>
+    </pilots>
+    <films>
+      <film>https://swapi.dev/api/films/4/</film>
+    </films>
     <created>2014-12-19T17:37:37.924000Z</created>
     <edited>2014-12-20T21:30:21.710000Z</edited>
     <url>https://swapi.dev/api/vehicles/38/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>Sith speeder</name>
     <model>FC-20 speeder bike</model>
     <manufacturer>Razalon</manufacturer>
@@ -364,13 +410,17 @@
     <cargo_capacity>2</cargo_capacity>
     <consumables>unknown</consumables>
     <vehicle_class>speeder</vehicle_class>
-    <pilots>https://swapi.dev/api/people/44/</pilots>
-    <films>https://swapi.dev/api/films/4/</films>
+    <pilots>
+      <pilot>https://swapi.dev/api/people/44/</pilot>
+    </pilots>
+    <films>
+      <film>https://swapi.dev/api/films/4/</film>
+    </films>
     <created>2014-12-20T10:09:56.095000Z</created>
     <edited>2014-12-20T21:30:21.712000Z</edited>
     <url>https://swapi.dev/api/vehicles/42/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>Zephyr-G swoop bike</name>
     <model>Zephyr-G swoop bike</model>
     <manufacturer>Mobquet Swoops and Speeders</manufacturer>
@@ -382,13 +432,17 @@
     <cargo_capacity>200</cargo_capacity>
     <consumables>none</consumables>
     <vehicle_class>repulsorcraft</vehicle_class>
-    <pilots>https://swapi.dev/api/people/11/</pilots>
-    <films>https://swapi.dev/api/films/5/</films>
+    <pilots>
+      <pilot>https://swapi.dev/api/people/11/</pilot>
+    </pilots>
+    <films>
+      <film>https://swapi.dev/api/films/5/</film>
+    </films>
     <created>2014-12-20T16:24:16.026000Z</created>
     <edited>2014-12-20T21:30:21.714000Z</edited>
     <url>https://swapi.dev/api/vehicles/44/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>Koro-2 Exodrive airspeeder</name>
     <model>Koro-2 Exodrive airspeeder</model>
     <manufacturer>Desler Gizh Outworld Mobility Corporation</manufacturer>
@@ -400,13 +454,17 @@
     <cargo_capacity>80</cargo_capacity>
     <consumables>unknown</consumables>
     <vehicle_class>airspeeder</vehicle_class>
-    <pilots>https://swapi.dev/api/people/70/</pilots>
-    <films>https://swapi.dev/api/films/5/</films>
+    <pilots>
+      <pilot>https://swapi.dev/api/people/70/</pilot>
+    </pilots>
+    <films>
+      <film>https://swapi.dev/api/films/5/</film>
+    </films>
     <created>2014-12-20T17:17:33.526000Z</created>
     <edited>2014-12-20T21:30:21.716000Z</edited>
     <url>https://swapi.dev/api/vehicles/45/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>XJ-6 airspeeder</name>
     <model>XJ-6 airspeeder</model>
     <manufacturer>Narglatch AirTech prefabricated kit</manufacturer>
@@ -418,13 +476,17 @@
     <cargo_capacity>unknown</cargo_capacity>
     <consumables>unknown</consumables>
     <vehicle_class>airspeeder</vehicle_class>
-    <pilots>https://swapi.dev/api/people/11/</pilots>
-    <films>https://swapi.dev/api/films/5/</films>
+    <pilots>
+      <pilot>https://swapi.dev/api/people/11/</pilot>
+    </pilots>
+    <films>
+      <film>https://swapi.dev/api/films/5/</film>
+    </films>
     <created>2014-12-20T17:19:19.991000Z</created>
     <edited>2014-12-20T21:30:21.719000Z</edited>
     <url>https://swapi.dev/api/vehicles/46/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>LAAT/i</name>
     <model>Low Altitude Assault Transport/infrantry</model>
     <manufacturer>Rothana Heavy Engineering</manufacturer>
@@ -437,13 +499,15 @@
     <consumables>unknown</consumables>
     <vehicle_class>gunship</vehicle_class>
     <pilots/>
-    <films>https://swapi.dev/api/films/5/</films>
-    <films>https://swapi.dev/api/films/6/</films>
+    <films>
+      <film>https://swapi.dev/api/films/5/</film>
+      <film>https://swapi.dev/api/films/6/</film>
+    </films>
     <created>2014-12-20T18:01:21.014000Z</created>
     <edited>2014-12-20T21:30:21.723000Z</edited>
     <url>https://swapi.dev/api/vehicles/50/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>LAAT/c</name>
     <model>Low Altitude Assault Transport/carrier</model>
     <manufacturer>Rothana Heavy Engineering</manufacturer>
@@ -456,12 +520,14 @@
     <consumables>unknown</consumables>
     <vehicle_class>gunship</vehicle_class>
     <pilots/>
-    <films>https://swapi.dev/api/films/5/</films>
+    <films>
+      <film>https://swapi.dev/api/films/5/</film>
+    </films>
     <created>2014-12-20T18:02:46.802000Z</created>
     <edited>2014-12-20T21:30:21.725000Z</edited>
     <url>https://swapi.dev/api/vehicles/51/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>AT-TE</name>
     <model>All Terrain Tactical Enforcer</model>
     <manufacturer>Rothana Heavy Engineering, Kuat Drive Yards</manufacturer>
@@ -474,13 +540,15 @@
     <consumables>21 days</consumables>
     <vehicle_class>walker</vehicle_class>
     <pilots/>
-    <films>https://swapi.dev/api/films/5/</films>
-    <films>https://swapi.dev/api/films/6/</films>
+    <films>
+      <film>https://swapi.dev/api/films/5/</film>
+      <film>https://swapi.dev/api/films/6/</film>
+    </films>
     <created>2014-12-20T18:10:07.560000Z</created>
     <edited>2014-12-20T21:30:21.728000Z</edited>
     <url>https://swapi.dev/api/vehicles/53/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>SPHA</name>
     <model>Self-Propelled Heavy Artillery</model>
     <manufacturer>Rothana Heavy Engineering</manufacturer>
@@ -493,12 +561,14 @@
     <consumables>7 days</consumables>
     <vehicle_class>walker</vehicle_class>
     <pilots/>
-    <films>https://swapi.dev/api/films/5/</films>
+    <films>
+      <film>https://swapi.dev/api/films/5/</film>
+    </films>
     <created>2014-12-20T18:12:32.315000Z</created>
     <edited>2014-12-20T21:30:21.731000Z</edited>
     <url>https://swapi.dev/api/vehicles/54/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>Flitknot speeder</name>
     <model>Flitknot speeder</model>
     <manufacturer>Huppla Pasa Tisc Shipwrights Collective</manufacturer>
@@ -510,13 +580,17 @@
     <cargo_capacity>unknown</cargo_capacity>
     <consumables>unknown</consumables>
     <vehicle_class>speeder</vehicle_class>
-    <pilots>https://swapi.dev/api/people/67/</pilots>
-    <films>https://swapi.dev/api/films/5/</films>
+    <pilots>
+      <pilot>https://swapi.dev/api/people/67/</pilot>
+    </pilots>
+    <films>
+      <film>https://swapi.dev/api/films/5/</film>
+    </films>
     <created>2014-12-20T18:15:20.312000Z</created>
     <edited>2014-12-20T21:30:21.735000Z</edited>
     <url>https://swapi.dev/api/vehicles/55/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>Neimoidian shuttle</name>
     <model>Sheathipede-class transport shuttle</model>
     <manufacturer>Haor Chall Engineering</manufacturer>
@@ -529,13 +603,15 @@
     <consumables>7 days</consumables>
     <vehicle_class>transport</vehicle_class>
     <pilots/>
-    <films>https://swapi.dev/api/films/5/</films>
-    <films>https://swapi.dev/api/films/6/</films>
+    <films>
+      <film>https://swapi.dev/api/films/5/</film>
+      <film>https://swapi.dev/api/films/6/</film>
+    </films>
     <created>2014-12-20T18:25:44.912000Z</created>
     <edited>2014-12-20T21:30:21.739000Z</edited>
     <url>https://swapi.dev/api/vehicles/56/</url>
-  </vehicles>
-  <vehicles>
+  </vehicle>
+  <vehicle>
     <name>Geonosian starfighter</name>
     <model>Nantex-class territorial defense</model>
     <manufacturer>Huppla Pasa Tisc Shipwrights Collective</manufacturer>
@@ -548,9 +624,11 @@
     <consumables>unknown</consumables>
     <vehicle_class>starfighter</vehicle_class>
     <pilots/>
-    <films>https://swapi.dev/api/films/5/</films>
+    <films>
+      <film>https://swapi.dev/api/films/5/</film>
+    </films>
     <created>2014-12-20T18:34:12.541000Z</created>
     <edited>2014-12-20T21:30:21.742000Z</edited>
     <url>https://swapi.dev/api/vehicles/57/</url>
-  </vehicles>
-</root>
+  </vehicle>
+</vehicles>
